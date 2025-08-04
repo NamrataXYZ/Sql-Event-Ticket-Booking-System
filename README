@@ -1,0 +1,30 @@
+Title :- Event Ticket Booking System
+
+Description :-
+This SQL project simulates an online event ticket booking system. It includes user management, event details, venues, seat assignments, ticket generation, and payments.
+
+Tools Used :-
+- MySQL Workbench
+
+ER Diagram :-
+Entities :
+- `User`
+- `Venue`
+- `Event`
+- `Seat`
+- `Booking`
+- `Ticket`
+- `Payment`
+
+Relationships :-
+- A User books multiple tickets.
+- An Event takes place at a Venue.
+- Seats are assigned per Event.
+- A Booking is linked to Seats and Payment.
+
+SQL Script Includes :-
+- Database and table creation
+- Foreign keys and constraints
+- Use of `AUTO_INCREMENT`, boolean flags
+- Normalized to 3NF
+
